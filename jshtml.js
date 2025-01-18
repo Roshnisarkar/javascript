@@ -461,21 +461,59 @@
 // }
 
 // conced arry ------------------->>>>>>>>>>>>>>>
-function arrying(){
-let arry = ["1","2", "3","4"]
-let arry1=["5","6", "7","8"]
+// function arrying(){
+// let arry = ["1","2", "3","4"]
+// let arry1=["5","6", "7","8"]
+
+// }
+// arrying();
+
+// function button(){
+
+// const myElement = document.getElementById("get");
+// myElement.style.color = "red";
+// myElement.style.backgroundColor="blue";
+// myElement.style.width="400px";
+// myElement.style.height= "400px";
+
+
+// }
+
+function btn (){
+   
+    // let text=document.querySelector("body")
+    let=document.body.style.backgroundColor="blue"
+    // text.innerHTML="<h1>Hello javascript</h1>"
+    // // document.write("<h1>hello js</h1>")
+    // text.style.backgroundColor="green"
+    // text.style.color="orange"
+
 
 }
-arrying();
+
+function btnn (){
+   
+    // let text=document.querySelector("body")
+     let=document.body.style.Color="blue"
+    let=document.body.style.backgroundColor="pink"
+    // text.innerHTML="<h1>Hello javascript</h1>"
+    // document.write("<h1>hello js</h1>")
+    // text.style.backgroundColor="green"
+    // text.style.color="orange"
 
 
+}
+function btnnn (){
+   
+    // let text=document.querySelector("body")
+    let=document.body.style.backgroundColor="white"
+    // text.innerHTML="<h1>Hello javascript</h1>"
+    // // document.write("<h1>hello js</h1>")
+    // text.style.backgroundColor="green"
+    // text.style.color="orange"
 
 
-
-
-
-
-
+}
 
 
 
