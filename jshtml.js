@@ -479,41 +479,127 @@
 
 // }
 
-function btn (){
+// function btn (){
    
     // let text=document.querySelector("body")
-    let=document.body.style.backgroundColor="blue"
+    // let=document.body.style.backgroundColor="blue"
     // text.innerHTML="<h1>Hello javascript</h1>"
     // // document.write("<h1>hello js</h1>")
     // text.style.backgroundColor="green"
     // text.style.color="orange"
 
 
-}
+// }
 
-function btnn (){
+// function btnn (){
    
     // let text=document.querySelector("body")
-     let=document.body.style.Color="blue"
-    let=document.body.style.backgroundColor="pink"
+    //  let=document.body.style.Color="blue"
+    // let=document.body.style.backgroundColor="pink"
     // text.innerHTML="<h1>Hello javascript</h1>"
     // document.write("<h1>hello js</h1>")
     // text.style.backgroundColor="green"
     // text.style.color="orange"
 
 
-}
-function btnnn (){
+// }
+// function btnnn (){
    
     // let text=document.querySelector("body")
-    let=document.body.style.backgroundColor="white"
+    // let=document.body.style.backgroundColor="white"
     // text.innerHTML="<h1>Hello javascript</h1>"
     // // document.write("<h1>hello js</h1>")
     // text.style.backgroundColor="green"
     // text.style.color="orange"
 
 
-}
+// }
+
+
+
+
+// function t1 (){
+   
+    
+//     let text=document.querySelector("#c1")
+   
+//     if (text.style.backgroundImage === 'none') {
+//         text.style.display = 'block'
+       
+//     } else {
+//         text.style.display ='none'  
+//     }   
+    
+
+// }
+
+// function img(){
+//     let i1=document.querySelector("#i")
+//     i1.style.backgroundImage="url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmCy16nhIbV3pI1qLYHMJKwbH2458oiC9EmA&s')"
+
+//     if (i1.style.backgroundImage === 'none') {
+//                 i1.style.display = 'block'
+               
+//             } else {
+
+//                 i1.style.display ='none'  
+//             }  
+
+
+//     }
+
+    // function enter(){
+    //     let i1=document.querySelector("#i")
+    //     i1.style.backgroundImage="url('IMG_20221024_220450_042.jpg')";
+    
+    //     if (i1.style.backgroundImage === 'none') {
+    //                 i1.style.display = 'block'
+                   
+    //             } else {
+    //                 i1.style.display ='none'  
+    //             }  
+    
+    
+    //     }
+    
+    // function c1(){
+    //     let d5=document.querySelector("#d4")
+    //     d5.style.backgroundImage="url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT07izPZIkeDIHvcTgL4KaWENdvy3SW2eW7hEJVS61CXoawnUJkc-TCoCI&s')"
+    //     d5.style.backgroundRepeat = "no-repeat";
+        
+    //   }
+      
+    //   function c2(){
+    //     let d5=document.querySelector("#d4")
+    //     d5.style.backgroundImage="url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9B_-oS-OSqikogvfc7bM8WqlS7aqgQSYjyWk3Ry93YQgI8KYu_f0UL1k&s')"
+    //     d5.style.backgroundRepeat = "no-repeat";
+    //   }
+    //   function c3(){
+    //     let d5=document.querySelector("#d4")
+    //     d5.style.backgroundImage="url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3…')"
+    //     }
+
+
+    let text="this is string"
+
+    let arr1=["roshni" ,"20","bhopal"]
+    let objj={
+      name: "roshni",
+      age:20,
+      city:"bhopal",
+      destination:"banglore"
+    }
+    
+console.log(arr1[1]);
+
+console.log(objj .name);
+console.log(objj);
+
+
+
+
+
+
 
 
 
