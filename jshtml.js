@@ -580,31 +580,117 @@
     //     }
 
 
-    let text="this is string"
+//     let text="this is string"
 
-    let arr1=["roshni" ,"20","bhopal"]
-    let objj={
-      name: "roshni",
-      age:20,
-      city:"bhopal",
-      destination:"banglore"
-    }
+//     let arr1=["roshni" ,"20","bhopal"]
+//     let objj={
+//       name: "roshni",
+//       age:20,
+//       city:"bhopal",
+//       destination:"banglore",
+//       fruits:["apple","orange","mango"],
+//       roshogolla:function(){
+
+//         console.log("hello roshni");
+        
+//         console.log(`hello ${this.name} your age is ${this.age}`);
+//       }
+
+
+//     }
+
+// objj.roshogolla();
+
+// console.log(arr1[1]);
+
+// console.log(objj .name);
+// console.log(objj);
+// objj.code=321321
+
+// console.log(objj.code);
+// objj.age=29
+
+// console.log(objj .age); 
+// delete objj.city
+
+// console.log(objj.fruits[1]);
+
+
+
+// $("h1").css("color","red");
+
+// // destructure
+// let students={
+//     name:"rosh",
+//     age:20,
+//     city: "bhopal"
+// }
+
+// let{name,age,city}=students
+// console.log(city)
+
+// spread oprator(...)
+
+// let student1={name:"helo", age:5}
+// let student2={name:"hii", age:2}
+// let student3={name:"hieei", age:22}
+// let combine={ ...student1 , ...student2 , ...student3}
+// console.log(combine)
+
+
+
+// let arr1=["roshni" ,"20","bhopal"]
+
+// let arr2=["roshniiii" ,"2000","bhopallll"]
+
+// let combine={...arr1, ...arr2};
+
+// console.log(combine)
+
+// immidielty invoke function expreesion IIFE
+// (
+// function(){
+//     console.log("iife")
+// }
+// )()
+
+// arrow function/special type of annonymus function
+
+// let roshni = ()=>{
+//     console.log("arrow");
     
-console.log(arr1[1]);
+// }
 
-console.log(objj .name);
-console.log(objj);
+// roshni()
+// oclick
+// let ook =()=>{
+//     let i=document.querySelector("#h1");
+//     // i= document.write("hhhhhhh")
+// i.innerHTML=`hello im ${name} my age is ${age} `
+// let text = document.querySelector.alert("#hll").value;
+ 
+// }
 
+function c1 (){
+    let text=document.querySelector("body")
+    text.style.backgroundColor="black"
+    text.style.color="white"
+}
+function c2 (){
+    let text=document.querySelector("body")
+    text.style.backgroundColor="white"
+    text.style.color="black"
+}
 
+function ccll (){
+    let di =document.querySelector("#ii")
+    di.style.display="none"
+    let text=document.querySelector("#show")
+    text.innerHTML=" hide "
+   
+}
 
-
-
-
-
-
-
-
-
-
-
-
+let f1=()=>{
+    let f2=document.querySelector("#inp").value;
+       document.body.style.backgroundColor=f2;
+    }
