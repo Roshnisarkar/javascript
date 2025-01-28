@@ -32,9 +32,30 @@
    
 }
 /*  */
-#ii{ 
+/* #ii{ 
 
     height: 20%;
     width: 50%; 
    border:  1px solid black; 
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#data{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50vh;
+    gap: 20px;
+    background-color: chartreuse;
+    color: rgb(177, 54, 54);
+    /* display: flex; */
+    border: 2px solid rgb(154, 26, 26);
+
+
+    
 }

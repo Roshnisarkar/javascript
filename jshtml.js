@@ -671,26 +671,143 @@
  
 // }
 
-function c1 (){
-    let text=document.querySelector("body")
-    text.style.backgroundColor="black"
-    text.style.color="white"
-}
-function c2 (){
-    let text=document.querySelector("body")
-    text.style.backgroundColor="white"
-    text.style.color="black"
-}
 
-function ccll (){
-    let di =document.querySelector("#ii")
-    di.style.display="none"
-    let text=document.querySelector("#show")
-    text.innerHTML=" hide "
+
+
+
+// function c1 (){
+//     let text=document.querySelector("body")
+//     text.style.backgroundColor="black"
+//     text.style.color="white"
+// }
+// function c2 (){
+//     let text=document.querySelector("body")
+//     text.style.backgroundColor="white"
+//     text.style.color="black"
+// }
+
+// const ccll=()=>{
+//     let di =document.querySelector("#ii")
+//     // di.style.display="none"
+//     let text=document.querySelector("#show")
+//     text.innerHTML=" hide "
+//     if(di.style.disply==block)
+//         di.style.disply="none"
+
+//     else{
+//           di.style.disply="block"
+//     }
    
+// }
+
+// let f1=()=>{
+//     let f2=document.querySelector("#inp").value;
+//        document.body.style.backgroundColor=f2;
+//     }
+
+
+// arry of object
+
+// let a =[1,2,3,4,5,6]
+// let ans = a.map ((e)=>{
+//     return e*2
+
+// })
+// console.log(ans)
+
+
+
+// filter method>>>>>>>>>>>>>>>>
+
+// let b =[1,2,3,4,5,6]
+// let boss = b.filter ((e)=>{
+//     return (e%2==0)
+
+// })
+
+// console.log(boss)   
+
+// let c =[1,2,3,4,5,6]
+// let coss = c.filter ((e)=>{
+//     return e>2
+
+// })
+
+// console.log(coss)
+
+
+// foreach method>>>>>>>>>>>>>>>>>>
+
+// let c =[1,2,3,4,5,6]
+// let coss = c.forEach ((e)=>{
+//     console.log( e*2);
+    
+
+// })
+
+
+
+
+
+
+
+let aoo=[{
+name:"roshni",
+age :20,
+city:"bhopal"
+
+},
+{
+    name:"shush",
+    age :21,
+    city:"dell" 
+},
+
+{
+    name:"shushie",
+    age :31,
+    city:"delulu"
 }
 
-let f1=()=>{
-    let f2=document.querySelector("#inp").value;
-       document.body.style.backgroundColor=f2;
-    }
+]
+
+// let d= document.querySelector(".name")
+// d.style.display="flex"
+
+
+let a= document.querySelector("#data")
+
+aoo.map((e) =>{
+a.innerHTML+=(`
+   <table>
+   <thead>
+   <tr>
+    <td>${e.name}</td>
+    <td> ${e.age}</td>
+     <td> ${e.city}</td>
+     <tr>
+     </thead>
+     </table>
+
+    `)
+// a.style.display="flex"
+// a.style.gap="20px"
+// a.style.width="20%"
+// a.style.height="100vh"
+// a.style.backgroundColor="pink"
+// a.style.color="green"
+
+
+
+
+})
+
+// console.log(ans);
+
+// let d=aoo.map((v) =>{
+//     return v.name
+    
+//     })
+    
+//     console.log(d);
+
