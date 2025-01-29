@@ -760,14 +760,32 @@ city:"bhopal"
 {
     name:"shush",
     age :21,
-    city:"dell" 
+    city:"sgp" 
 },
 
 {
     name:"shushie",
-    age :31,
-    city:"delulu"
+    age :19,
+    city:"indore"
 }
+,{
+name:"boy",
+age :21,
+city:"bhopal"
+
+},
+{
+    name:"shushmita",
+    age :21,
+    city:"delhi" 
+},
+
+{
+    name:"sunshine",
+    age :23,
+    city:"mumbai"
+}
+
 
 ]
 
@@ -778,24 +796,18 @@ city:"bhopal"
 let a= document.querySelector("#data")
 
 aoo.map((e) =>{
-a.innerHTML+=(`
-   <table>
-   <thead>
-   <tr>
-    <td>${e.name}</td>
-    <td> ${e.age}</td>
-     <td> ${e.city}</td>
-     <tr>
-     </thead>
-     </table>
-
+a.innerHTML+=(`<div>
+    <h1>${e.name}</h1>
+     <h1>${e.age}</h1> 
+     <h1>${e.city}</h1>
+     </div>
     `)
-// a.style.display="flex"
-// a.style.gap="20px"
-// a.style.width="20%"
-// a.style.height="100vh"
-// a.style.backgroundColor="pink"
-// a.style.color="green"
+a.style.display="flex"
+a.style.gap="20px"
+a.style.width="100%"
+a.style.height="100vh"
+a.style.backgroundColor="pink"
+a.style.color="green"
 
 
 
