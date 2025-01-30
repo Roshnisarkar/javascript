@@ -392,12 +392,12 @@
 
 // function stringslice (){
 
-// // let low ="this is lower case"
+// let low ="this is lower case"
 //     let text= "thisisstring";
 //     let char = text.charAt(0);
-//     // String.charcodeAt(index)
-//     // document.write(text.toUpperCase())
-//     // document.write(low.toLowerCase())
+//     String.charcodeAt(index)
+//     document.write(text.toUpperCase())
+//     document.write(low.toLowerCase())
 
 //     }
 
@@ -672,9 +672,6 @@
 // }
 
 
-
-
-
 // function c1 (){
 //     let text=document.querySelector("body")
 //     text.style.backgroundColor="black"
@@ -751,68 +748,66 @@
 
 
 
-let aoo=[{
-name:"roshni",
-age :20,
-city:"bhopal"
+// let aoo=[{
+// name:"roshni",
+// age :20,
+// city:"bhopal"
 
-},
-{
-    name:"shush",
-    age :21,
-    city:"sgp" 
-},
+// },
+// {
+//     name:"shush",
+//     age :21,
+//     city:"sgp" 
+// },
 
-{
-    name:"shushie",
-    age :19,
-    city:"indore"
-}
-,{
-name:"boy",
-age :21,
-city:"bhopal"
+// {
+//     name:"shushie",
+//     age :19,
+//     city:"indore"
+// }
+// ,{
+// name:"boy",
+// age :21,
+// city:"bhopal"
 
-},
-{
-    name:"shushmita",
-    age :21,
-    city:"delhi" 
-},
+// },
+// {
+//     name:"shushmita",
+//     age :21,
+//     city:"delhi" 
+// },
 
-{
-    name:"sunshine",
-    age :23,
-    city:"mumbai"
-}
+// {
+//     name:"sunshine",
+//     age :23,
+//     city:"mumbai"
+// }
 
 
-]
+// ]
 
 // let d= document.querySelector(".name")
 // d.style.display="flex"
 
 
-let a= document.querySelector("#data")
+// let a= document.querySelector("#data")
 
-aoo.map((e) =>{
-a.innerHTML+=(`<div>
-    <h1>${e.name}</h1>
-     <h1>${e.age}</h1> 
-     <h1>${e.city}</h1>
-     </div>
-    `)
-a.style.display="flex"
-a.style.gap="20px"
-a.style.width="100%"
-a.style.height="100vh"
-a.style.backgroundColor="pink"
-a.style.color="green"
-
-
+// aoo.map((e) =>{
+// a.innerHTML+=(`<div>
+//     <h1>${e.name}</h1>
+//      <h1>${e.age}</h1> 
+//      <h1>${e.city}</h1>
+//      </div>
+//     `)
+// a.style.display="flex"
+// a.style.gap="20px"
+// a.style.width="100%"
+// a.style.height="100vh"
+// a.style.backgroundColor="pink"
+// a.style.color="green"
 
 
-})
+// })
 
 // console.log(ans);
 
@@ -822,4 +817,66 @@ a.style.color="green"
 //     })
     
 //     console.log(d);
+
+// form validation <<<<<<<<<<<>>>>>>>>>>>
+
+let sub=()=>{
+
+   let inputname = document.querySelector("#name").value
+   let  inputnum=document.querySelector("#number").value
+   let  inputemail=document.querySelector("#email").value
+   let  inputpass=document.querySelector("#password").value
+   let inputcon =document.querySelector("#confirm").value
+ 
+ 
+    let errorname = document.querySelector("#errorname")
+    let errornumber=document.querySelector("#errornumber")
+    let  erroremail=document.querySelector("#erroremail")
+    let  errorpassword=document.querySelector("#errorpass")
+    let errorconfirm=document.querySelector("#errorconfirm")
+
+if(inputname==""){
+    errorname.innerHTML="please enter your correct name"
+    errorname.style.color="red"
+    return false;
+}
+
+
+if(inputnum==""){
+    errornumber.innerHTML="please enter your correct number"
+    errornumber.style.color="red"
+    return false;
+}
+
+
+if(inputemail==""){
+    erroremail.innerHTML="please enter your correct email"
+    erroremail.style.color="red"
+    return false;
+}
+
+
+if(inputpass==""){
+    errorpassword.innerHTML="please enter your password"
+    errorpassword.style.color="red"
+    return false;
+}
+
+if(inputcon !== inputpass){
+    errorpassword.innerHTML="please enter your correct password"
+    errorpassword.style.color="red"
+    return false;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
 
