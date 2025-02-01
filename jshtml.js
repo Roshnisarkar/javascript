@@ -849,11 +849,11 @@ if(inputnum==""){
 }
 
 
-if(inputemail==""){
-    erroremail.innerHTML="please enter your correct email"
-    erroremail.style.color="red"
-    return false;
-}
+// if(inputemail==""){
+//     erroremail.innerHTML="please enter your correct email"
+//     erroremail.style.color="red"
+//     return false;
+// }
 
 
 if(inputpass==""){
@@ -868,7 +868,23 @@ if(inputcon !== inputpass){
     return false;
 }
 
+else if( isNaN (number)){
+    errornumber.innerHTML="please enter your number"
+    errornumber.style.color="red"
+    return false;
+}
 
+else if(number.length!==10){
+    errornumber.innerHTML="please enter your correct number"
+    errornumber.style.color="red"
+    return false;
+}
+
+if(!(inputemail.includes('@'))&& inputemail.includes(".com")){
+    erroremail.innerHTML="please enter your @ correct email"
+    erroremail.style.color="red"
+    return false;
+}
 
 
 
