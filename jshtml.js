@@ -886,7 +886,7 @@ if(!(inputemail.includes('@'))&& inputemail.includes(".com")){
     return false;
 }
 
-
+//  form style and validation 
 
 }
 
