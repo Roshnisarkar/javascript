@@ -836,6 +836,9 @@ let sub=()=>{
     let errorconfirm=document.querySelector("#errorconfirm")
 
 if(inputname==""){
+    let name =document.querySelector("#name")
+    name.style.border="1px solid red"
+      name.placeholder="enter name"
     errorname.innerHTML="please enter your correct name"
     errorname.style.color="red"
     return false;
@@ -863,12 +866,14 @@ if(inputpass==""){
 }
 
 if(inputcon !== inputpass){
+  Document.querySelector("#inputcon").focus=""
+   Document.querySelector("#inputcon").value="`"
     errorpassword.innerHTML="please enter your correct password"
     errorpassword.style.color="red"
     return false;
 }
 
-else if( isNaN (number)){
+else if( isNaN(number)){
     errornumber.innerHTML="please enter your number"
     errornumber.style.color="red"
     return false;
@@ -880,7 +885,7 @@ else if(number.length!==10){
     return false;
 }
 
-if(!(inputemail.includes('@'))&& inputemail.includes(".com")){
+else if(!(email.includes('@') && email.includes('.com'))){
     erroremail.innerHTML="please enter your @ correct email"
     erroremail.style.color="red"
     return false;
