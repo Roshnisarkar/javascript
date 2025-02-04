@@ -866,7 +866,7 @@ if(inputpass==""){
 }
 
 if(inputcon !== inputpass){
-  Document.querySelector("#inputcon").focus=""
+   Document.querySelector("#inputcon").focus=""
    Document.querySelector("#inputcon").value="`"
     errorpassword.innerHTML="please enter your correct password"
     errorpassword.style.color="red"
