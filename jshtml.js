@@ -895,7 +895,11 @@ else if(!(email.includes('@') && email.includes('.com'))){
 
 }
 
-
+// let input=document.querySelector("#inp")
+// input=addEventListener("input",()=>{
+//    let int=document.querySelector("#h")
+//    int.innerHTML=inp.value
+// })
 
 
 
