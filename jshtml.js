@@ -890,10 +890,11 @@ else if(!(email.includes('@') && email.includes('.com'))){
     erroremail.style.color="red"
     return false;
 }
+}
 
 //  form style and validation 
 
-}
+
 
 // let input=document.querySelector("#inp")
 // input=addEventListener("input",()=>{
