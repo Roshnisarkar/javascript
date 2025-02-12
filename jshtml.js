@@ -744,10 +744,6 @@
 
 
 
-
-
-
-
 // let aoo=[{
 // name:"roshni",
 // age :20,
@@ -820,36 +816,36 @@
 
 // form validation <<<<<<<<<<<>>>>>>>>>>>
 
-let sub=()=>{
+// let sub=()=>{
 
-   let inputname = document.querySelector("#name").value
-   let  inputnum=document.querySelector("#number").value
-   let  inputemail=document.querySelector("#email").value
-   let  inputpass=document.querySelector("#password").value
-   let inputcon =document.querySelector("#confirm").value
+//    let inputname = document.querySelector("#name").value
+//    let  inputnum=document.querySelector("#number").value
+//    let  inputemail=document.querySelector("#email").value
+//    let  inputpass=document.querySelector("#password").value
+//    let inputcon =document.querySelector("#confirm").value
  
  
-    let errorname = document.querySelector("#errorname")
-    let errornumber=document.querySelector("#errornumber")
-    let  erroremail=document.querySelector("#erroremail")
-    let  errorpassword=document.querySelector("#errorpass")
-    let errorconfirm=document.querySelector("#errorconfirm")
+//     let errorname = document.querySelector("#errorname")
+//     let errornumber=document.querySelector("#errornumber")
+//     let  erroremail=document.querySelector("#erroremail")
+//     let  errorpassword=document.querySelector("#errorpass")
+//     let errorconfirm=document.querySelector("#errorconfirm")
 
-if(inputname==""){
-    let name =document.querySelector("#name")
-    name.style.border="1px solid red"
-      name.placeholder="enter name"
-    errorname.innerHTML="please enter your correct name"
-    errorname.style.color="red"
-    return false;
-}
+// if(inputname==""){
+//     let name =document.querySelector("#name")
+//     name.style.border="1px solid red"
+//       name.placeholder="enter name"
+//     errorname.innerHTML="please enter your correct name"
+//     errorname.style.color="red"
+//     return false;
+// }
 
 
-if(inputnum==""){
-    errornumber.innerHTML="please enter your correct number"
-    errornumber.style.color="red"
-    return false;
-}
+// if(inputnum==""){
+//     errornumber.innerHTML="please enter your correct number"
+//     errornumber.style.color="red"
+//     return false;
+// }
 
 
 // if(inputemail==""){
@@ -859,42 +855,40 @@ if(inputnum==""){
 // }
 
 
-if(inputpass==""){
-    errorpassword.innerHTML="please enter your password"
-    errorpassword.style.color="red"
-    return false;
-}
+// if(inputpass==""){
+//     errorpassword.innerHTML="please enter your password"
+//     errorpassword.style.color="red"
+//     return false;
+// }
 
-if(inputcon !== inputpass){
-   Document.querySelector("#inputcon").focus=""
-   Document.querySelector("#inputcon").value="`"
-    errorpassword.innerHTML="please enter your correct password"
-    errorpassword.style.color="red"
-    return false;
-}
+// if(inputcon !== inputpass){
+//    Document.querySelector("#inputcon").focus=""
+//    Document.querySelector("#inputcon").value="`"
+//     errorpassword.innerHTML="please enter your correct password"
+//     errorpassword.style.color="red"
+//     return false;
+// }
 
-else if( isNaN(number)){
-    errornumber.innerHTML="please enter your number"
-    errornumber.style.color="red"
-    return false;
-}
+// else if( isNaN(number)){
+//     errornumber.innerHTML="please enter your number"
+//     errornumber.style.color="red"
+//     return false;
+// }
 
-else if(number.length!==10){
-    errornumber.innerHTML="please enter your correct number"
-    errornumber.style.color="red"
-    return false;
-}
+// else if(number.length!==10){
+//     errornumber.innerHTML="please enter your correct number"
+//     errornumber.style.color="red"
+//     return false;
+// }
 
-else if(!(email.includes('@') && email.includes('.com'))){
-    erroremail.innerHTML="please enter your @ correct email"
-    erroremail.style.color="red"
-    return false;
-}
-}
+// else if(!(email.includes('@') && email.includes('.com'))){
+//     erroremail.innerHTML="please enter your @ correct email"
+//     erroremail.style.color="red"
+//     return false;
+// }
+// }
 
 //  form style and validation 
-
-
 
 // let input=document.querySelector("#inp")
 // input=addEventListener("input",()=>{
@@ -902,7 +896,21 @@ else if(!(email.includes('@') && email.includes('.com'))){
 //    int.innerHTML=inp.value
 // })
 
+// DATE OBJECT>>>>>>>>>>>>>>>>>>>>
+let time =new Date()
+// console.log(time.getFullYear());
+// console.log(time.getDay());
+// console.log(time.getMonth());
+// console.log(time.toLocaleString());
+// console.log(time.getHours());
+// console.log(time.getMinutes());
+// console.log(time.getMilliseconds());
+// console.log(time.getSeconds());
 
-
-
-
+let arr=["sunday" ,"monday"  ,"tuesday"  ,"wednesday"  ,"friday"  ,"saturday" ]
+let a=arr[time.getDay()]
+ let clk=()=>{
+    let b=document.querySelector("#i")
+    b.innerHTML=a
+}
+// age calculator
