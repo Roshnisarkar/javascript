@@ -897,7 +897,7 @@
 // })
 
 // DATE OBJECT>>>>>>>>>>>>>>>>>>>>
-let time =new Date()
+// let time =new Date()
 // console.log(time.getFullYear());
 // console.log(time.getDay());
 // console.log(time.getMonth());
@@ -907,10 +907,21 @@ let time =new Date()
 // console.log(time.getMilliseconds());
 // console.log(time.getSeconds());
 
-let arr=["sunday" ,"monday"  ,"tuesday"  ,"wednesday"  ,"friday"  ,"saturday" ]
-let a=arr[time.getDay()]
- let clk=()=>{
-    let b=document.querySelector("#i")
-    b.innerHTML=a
-}
+// let arr=["sunday" ,"monday"  ,"tuesday"  ,"wednesday"  ,"friday"  ,"saturday" ]
+// let a=arr[time.getDay()]
+//  let clk=()=>{
+//     let b=document.querySelector("#i")
+//     b.innerHTML=a
+// }
 // age calculator
+
+
+
+let btn=()=>{
+let t =new Date()
+let a=document.querySelector("#age").value
+let b=document.querySelector("#tt")
+
+b.innerHTML= t.getFullYear()-a
+
+}
