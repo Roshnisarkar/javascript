@@ -917,11 +917,24 @@
 
 
 
-let btn=()=>{
-let t =new Date()
-let a=document.querySelector("#age").value
-let b=document.querySelector("#tt")
+// let btn=()=>{
+// let t =new Date()
+// let a=document.querySelector("#age").value
+// let b=document.querySelector("#tt")
+// b.innerHTML= t.getFullYear()-a
+// }
 
-b.innerHTML= t.getFullYear()-a
 
+
+setInterval((aa)=>{
+let time=new Date()
+let e=document.querySelector("#clock").value
+let f=document.querySelector("#clock2").value
+let h=document.querySelector("#o")
+let a=   (` ${time.getHours()} :${time.getMinutes()} `)
+if(a==e && a==f){
+    h.innerHTML="ringing..."
 }
+})
+
+
