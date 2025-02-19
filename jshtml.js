@@ -926,15 +926,24 @@
 
 
 
-setInterval((aa)=>{
-let time=new Date()
-let e=document.querySelector("#clock").value
-let f=document.querySelector("#clock2").value
-let h=document.querySelector("#o")
-let a=   (` ${time.getHours()} :${time.getMinutes()} `)
-if(a==e && a==f){
-    h.innerHTML="ringing..."
-}
-})
+// setInterval((aa)=>{
+// let time=new Date()
+// let e=document.querySelector("#clock").value
+// let f=document.querySelector("#clock2").value
+// let h=document.querySelector("#o")
+// let a=   (` ${time.getHours()} :${time.getMinutes()} `)
+// if(a==e && a==f){
+//     h.innerHTML="ringing..."
+// }
+// })
 
+VANTA.FOG({
+    el: "#h",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00
+  })
 
+  
